@@ -19,7 +19,7 @@ model = load_model()
 
 # === Giao diện ứng dụng ===
 st.set_page_config(page_title="Dự đoán Thiếu máu", layout="centered")
-st.title("🔬 Dự đoán Mức độ Thiếu máu từ Dữ liệu Lâm sàng")
+st.title("🔬 Dự đoán mức độ thiếu máu từ dữ liệu lâm sàng")
 st.write("Nhập các chỉ số cơ bản để dự đoán mức độ thiếu máu theo chuẩn WHO.")
 
 # === Nhập thông tin ===
